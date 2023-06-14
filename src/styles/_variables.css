@@ -1,7 +1,7 @@
 :root {
   /* color: #18813b;
   color: #efcca9; */
-  --accent-font: "Calistoga", "Shrikhand", "Playfair Display", serif;
+  --accent-font: "Playfair Display", serif;
   --base-font: "Lato", system-ui, sans-serif;
 
   --accent-100: 180 20% 99%;
