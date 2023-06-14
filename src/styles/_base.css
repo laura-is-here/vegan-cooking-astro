@@ -50,3 +50,15 @@ body {
 :where(h4) {
   font-size: var(--step-1);
 }
+
+ul li::marker {
+  color: hsl(var(--primary));
+}
+
+ol li::marker {
+  color: hsl(var(--accent-600));
+}
+
+.markdown :where(li) {
+  margin-top: 0.5em;
+}
