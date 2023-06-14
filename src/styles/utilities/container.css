@@ -1,5 +1,5 @@
 .container {
-  margin: auto;
-  padding: 1.5rem;
-  max-width: 60ch;
+  margin-inline: auto;
+  max-width: min(100% - 3rem, 65ch);
+  padding: clamp(1rem, 5%, 3rem);
 }
