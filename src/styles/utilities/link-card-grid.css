@@ -2,6 +2,6 @@
   --container-max: 1000px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-  gap: 1rem;
+  gap: clamp(1rem, 5%, 2rem);
   margin-inline: auto;
 }
