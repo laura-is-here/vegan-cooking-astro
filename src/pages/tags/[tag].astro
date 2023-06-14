@@ -29,7 +29,7 @@ const { recipes } = Astro.props;
           <h1>Recipes filed under {tag}</h1>
         </div>
     </header>    
-    <ul id="recipes" role="list" class="link-card-grid">
+    <ul id="recipes" role="list" class="link-card-grid container">
         {
           recipes.map((recipe) => (
             <Card
