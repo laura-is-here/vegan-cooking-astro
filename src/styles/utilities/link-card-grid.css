@@ -1,0 +1,9 @@
+.link-card-grid {
+  --container-max: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  width: min(100% - 3rem, var(--container-max, 60ch));
+  margin-inline: auto;
+}

@@ -1,0 +1,28 @@
+---
+import Layout from "./Layout.astro";
+import Tags from "../components/Tags.astro";
+
+const { title, summary, tags, source } = Astro.props.frontmatter;
+---
+
+<Layout title={title}>
+  <article>
+    <header class="bg-accent-200">
+      <div class="container flow">
+        <h1>{title}</h1>
+        {summary &&
+        <p class="">
+          {summary}
+        </p>
+      }
+        {source && <a href={source}>Original Recipe</a>}
+        {tags &&
+        <Tags tags={tags} />
+        }
+      </div>
+    </header>
+    <div class="container flow">
+      <slot />
+    </div>
+  </article>
+</Layout>

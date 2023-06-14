@@ -1,0 +1,12 @@
+.notice {
+  line-height: 1.6;
+  margin: 1rem 0;
+  border: 1px solid hsl(var(--accent) / 25%);
+  border-left: 4px solid hsl(var(--accent) / 25%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.notice strong {
+  color: hsl(var(--accent));
+}
