@@ -10,7 +10,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: clamp(1rem, 5%, 2rem);
+
   }
   a {
     text-decoration: none;
@@ -22,6 +23,6 @@
   header > a > span {
     font-family: var(--base-font);
     font-weight: 300;
-    font-size: 0.825rem;
+    font-size: var(--step--1);
   }
 </style>
