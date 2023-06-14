@@ -1,5 +1,5 @@
 html {
-  font-family: "Lato", system-ui, sans-serif;
+  font-family: var(--base-font);
   font-size: clamp(1rem, 5vmax, 1.2rem);
   background-color: #f6f6f6;
   line-height: 1.5;
@@ -30,6 +30,6 @@ html {
 }
 :where(h1, h2, h3, h4, h5, h6) {
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: var(--accent-font);
   line-height: 1;
 }

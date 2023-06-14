@@ -1,6 +1,9 @@
 :root {
   /* color: #18813b;
   color: #efcca9; */
+  --accent-font: "Calistoga", "Shrikhand", "Playfair Display", serif;
+  --base-font: "Lato", system-ui, sans-serif;
+
   --accent-100: 180 20% 99%;
   --accent-200: 141 29% 78%;
   --accent-300: 140 35% 61%;
@@ -11,15 +14,19 @@
   --accent-800: 140 44% 16%;
   --accent-900: 140 36% 12%;
   --accent-950: 140 27% 9%;
-  --border-radius: 0.6rem;
   --accent: var(--accent-600);
+
   --primary: 30 68% 80%;
+
   --primary-hue: 30;
   --accent-hue: 140;
+
   --accent-gradient: linear-gradient(
     45deg,
     hsl(var(--accent)),
     hsl(var(--primary)) 30%,
     white 60%
   );
+
+  --border-radius: 0.6rem;
 }
