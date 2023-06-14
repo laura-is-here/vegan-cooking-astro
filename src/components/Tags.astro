@@ -10,7 +10,7 @@ const { tags } = Astro.props;
   {
     tags.sort().map((tag) => (
       <li>
-        <a href={`tags/${tag}`}>{tag}</a>
+        <a href={`/tags/${tag}`}>{tag}</a>
       </li>
     ))
   }
@@ -24,9 +24,6 @@ const { tags } = Astro.props;
     flex-wrap: wrap;
     gap: 0.5rem;
     padding: 0;
-  }
-
-  li {
   }
 
   a {
