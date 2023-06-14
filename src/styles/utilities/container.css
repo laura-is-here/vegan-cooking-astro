@@ -1,5 +1,5 @@
 .container {
   margin-inline: auto;
-  max-width: min(100% - 3rem, 65ch);
+  max-width: min(100% - 3rem, var(--container-max, 65ch));
   padding: clamp(2rem, 5%, 4rem) clamp(1rem, 5%, 2rem);
 }
