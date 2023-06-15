@@ -5,7 +5,6 @@ featureImg: https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2017/05/a-r
 featureImgAttr: https://smittenkitchen.com
 source: https://smittenkitchen.com/2017/05/a-really-great-pot-of-chickpeas/
 tags:
-  - beans
   - big batch
 ---
 
