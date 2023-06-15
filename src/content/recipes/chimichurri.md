@@ -1,6 +1,6 @@
 ---
 tags:
-  - dressing
+  - dressings, sauces, and seasonings
 title: Chimichurri
 featureImg: ""
 youtubeId: ""

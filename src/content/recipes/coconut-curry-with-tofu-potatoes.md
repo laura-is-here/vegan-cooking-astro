@@ -1,6 +1,9 @@
 ---
 tags:
   - curry
+  - thai
+ingredient:
+  - veggies
 title: Coconut Curry with Tofu & Potatoes
 featureImg: ""
 youtubeId: ""

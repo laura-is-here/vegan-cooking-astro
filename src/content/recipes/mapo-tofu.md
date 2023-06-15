@@ -4,6 +4,8 @@ tags:
   - chinese
   - main
   - spicy
+ingredient:
+  - tofu
 featureImg: "/img/mapo-tofu-sm.jpg"
 youtubeId: AujuLHK3hvs
 source: https://www.reddit.com/r/Cooking/comments/bkwppx/recipe_sichuan_mapo_tofu_revisited_%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/

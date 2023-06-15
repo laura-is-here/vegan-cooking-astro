@@ -2,7 +2,9 @@
 title: Chickpeas 'n' Greens
 summary: Sturdy greens simmered in a light broth with chickpeas.
 tags:
-  - beans
+  - main
+ingredient:
+  - chickpeas
 ---
 
 ## Ingredients

@@ -1,6 +1,8 @@
 ---
 tags:
   - side
+ingredient:
+  - potatoes
 title: Warm Potato Salad with Chimichrri & Crispy Chickpeas
 featureImg: ""
 youtubeId: ""

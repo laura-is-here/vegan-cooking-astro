@@ -1,6 +1,8 @@
 ---
 tags:
   - side
+ingredient:
+  - lettuce
 title: Lettuce Wraps
 featureImg: ""
 youtubeId: ""

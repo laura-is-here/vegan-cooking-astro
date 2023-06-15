@@ -1,6 +1,8 @@
 ---
 title: Queso from Hot for Food
 tags:
+  - dressings, sauces, and seasonings
+ingredient:
   - cheese
 featureImg: "/img/nachos-sm.jpg"
 youtubeId: HUH3ttCnnGU

@@ -1,5 +1,7 @@
 ---
-tags: ["main"]
+tags:
+  - dough
+  - pizza
 title: Pizza Dough, Neapolitan Style
 featureImg: img/20100909-pizzology-neapolitan-pizza-primary.jpg
 youtubeId: ""

@@ -3,6 +3,8 @@ tags:
   - spicy
   - chinese
   - main
+ingredient:
+  - noodles
 title: Sichuan Mala Noodles
 featureImg: ""
 youtubeId: oHRxxef4_kI

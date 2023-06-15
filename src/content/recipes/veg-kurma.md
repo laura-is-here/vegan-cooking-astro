@@ -2,6 +2,8 @@
 tags:
   - indian
   - curry
+ingredient:
+  - veggies
 title: Veg Kurma
 featureImg: ""
 youtubeId: ""

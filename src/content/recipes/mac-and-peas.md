@@ -1,6 +1,8 @@
 ---
 tags:
   - easy
+ingredient:
+  - pasta
 title: Mac and Peas
 featureImg: ""
 youtubeId: 510fDkRzNz4

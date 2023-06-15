@@ -2,6 +2,9 @@
 title: Mac & Cheese
 tags:
   - main
+  - cheese
+ingredient:
+  - pasta
 featureImg: "/img/mac-and-cheese-sm.jpg"
 summary: Hearty Mac and Cheese that's great for sharing. Tiff's original recipe.
 ---

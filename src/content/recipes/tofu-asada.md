@@ -1,7 +1,7 @@
 ---
 title: Tofu Asada
 tags:
-  - season
+  - dressings, sauces, and seasonings
 summary: A marinade packed with asada flavor. Tiff's original recipe.
 ---
 

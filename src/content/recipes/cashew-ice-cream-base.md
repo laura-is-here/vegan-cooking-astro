@@ -1,5 +1,8 @@
 ---
-tags: ["dessert"]
+tags:
+  - dessert
+ingredient:
+  - cashews
 title: Cashew Ice Cream Base
 featureImg: ""
 youtubeId: ""
