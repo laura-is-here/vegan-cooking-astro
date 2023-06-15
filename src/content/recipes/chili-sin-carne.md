@@ -3,7 +3,7 @@ title: Chili sin carne
 tags:
   - big batch
   - spicy
-ingredients:
+ingredient:
   - beans
 summary: Quick, spicy, vegan chili that packs a ton of flavor. Laura's original recipe.
 ---

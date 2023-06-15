@@ -6,6 +6,8 @@ featureImgAttr: https://smittenkitchen.com
 source: https://smittenkitchen.com/2017/05/a-really-great-pot-of-chickpeas/
 tags:
   - big batch
+ingredient:
+  - chickpeas
 ---
 
 ## Ingredients

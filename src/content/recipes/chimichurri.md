@@ -9,7 +9,6 @@ summary:
   Basic chimichurri sauce great for topping fresh or roasted veggies or as
   a tangy topping to curries and stews.
 featureImgAttr: ""
-ingredients: []
 ---
 
 ## Ingredients

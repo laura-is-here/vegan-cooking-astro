@@ -4,16 +4,22 @@ import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Tags from "../components/Tags.astro";
+import Ingredients from "../components/Ingredients.astro";
 
 const recipes = await getCollection("recipes");
 
-const tags = [];
-const allTags = recipes.flatMap((recipe) => recipe.data.tags);
+const tags = [...new Set(recipes.filter((recipe) => recipe.data.tags ? recipe : false).map((recipe) => recipe.data.tags).flat())];
 
-allTags.forEach((tag) => {
-  if (tags.includes(tag)) return;
-  tags.push(tag.toLowerCase());
-});
+const ingredients = [...new Set(recipes.filter((recipe) => recipe.data.ingredient ? recipe : false).map((recipe) => recipe.data.ingredient).flat())];;
+// const allIngredients = recipes.flatMap((recipe) => recipe.data.ingredient && recipe.data.ingredient.length);
+
+// console.log(allIngredients)
+
+// allIngredients.forEach((ingredient) => {
+//   if (ingredients.includes(ingredient)) return;
+//   ingredients.push(ingredient.toLowerCase());
+// });
+
 ---
 
 <Layout title="Vegan Home Cooking by Tiff & Laura">
@@ -26,6 +32,7 @@ allTags.forEach((tag) => {
         adapted vegan recipes.
       </p>
       <Tags tags={tags} />
+      <Ingredients ingredients={ingredients}/>
     </div>
   </header>
 

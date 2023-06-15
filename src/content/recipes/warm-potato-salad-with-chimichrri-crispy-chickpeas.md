@@ -3,6 +3,7 @@ tags:
   - side
 ingredient:
   - potatoes
+  - chickpeas
 title: Warm Potato Salad with Chimichrri & Crispy Chickpeas
 featureImg: ""
 youtubeId: ""
@@ -11,7 +12,6 @@ summary:
   Tender gold potatoes and fresh kale tossed with chimichurri and topped with
   crispy chickpeas
 featureImgAttr: ""
-ingredients: []
 ---
 
 ## Ingredients

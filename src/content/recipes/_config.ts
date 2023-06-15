@@ -6,6 +6,7 @@ const recipeCollection = defineCollection({
     schema: z.object({
         title: z.string(),
         tags: z.array(z.string()),
+        ingredient: z.array(z.string()).optional(),
         featureImg: z.string().optional(),
         featureImgAttr: z.string().optional(),
         source: z.string().optional(),

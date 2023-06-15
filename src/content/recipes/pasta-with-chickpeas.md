@@ -3,6 +3,7 @@ tags:
   - easy
 ingredient:
   - pasta
+  - chickpeas
 title: Pasta with Chickpeas
 youtubeId: ""
 source: https://smittenkitchen.com/2017/10/quick-pasta-and-chickpeas-pasta-e-ceci/
