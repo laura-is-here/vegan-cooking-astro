@@ -17,7 +17,7 @@ allTags.forEach((tag) => {
 ---
 
 <Layout title="Vegan Home Cooking by Tiff & Laura">
-  <header class="bg-accent-200">
+  <header class="">
     <div class="container flow">
       <h1>Vegan Homecooking by Tiff & Laura</h1>
 
@@ -29,7 +29,7 @@ allTags.forEach((tag) => {
     </div>
   </header>
 
-  <ul id="recipes" role="list" class="container flow">
+  <ul id="recipes" role="list" class="container link-card-grid">
     {
       recipes.map((recipe) => (
         <Card

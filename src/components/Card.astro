@@ -21,26 +21,27 @@ const { href, title, body, tags } = Astro.props;
 </li>
 <style>
   .link-card {
-    --flow-space: 2rem;
-    --border-color: hsl(var(--accent-600));
+    --flow-space: 1.5rem;
+    --border-color: hsl(var(--accent-200));
     list-style: none;
     border-radius: 0.35rem;
     padding: 1.25rem;
     border: 1px solid var(--border-color);
-    border-left: 4px solid var(--border-color);
+    box-shadow: 6px 6px 0 hsl(var(--accent-700));
     background-color:hsl(var(--accent-100));
+    position: relative;
   }
 
   a {
     width: 100%;
     text-decoration: none;
     color: #444;
-    /* padding: 1rem 1.3rem;
-    border-radius: 0.35rem;
-    color: #444;
-    background-color: white;
-    opacity: 0.8; */
     font-weight: unset;
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
   }
   h2 {
     margin: 0;

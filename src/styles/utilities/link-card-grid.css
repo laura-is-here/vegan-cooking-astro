@@ -1,7 +1,7 @@
 .link-card-grid {
   --container-max: 1000px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-  gap: clamp(1rem, 5%, 2rem);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15em), 1fr));
+  gap: 1.5rem;
   margin-inline: auto;
 }
