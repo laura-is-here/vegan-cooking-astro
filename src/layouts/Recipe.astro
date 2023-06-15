@@ -7,7 +7,7 @@ const { title, summary, tags, source } = Astro.props.frontmatter;
 
 <Layout title={title}>
   <article>
-    <header class="bg-accent-200">
+    <header class="">
       <div class="container flow">
         <h1>{title}</h1>
         {summary &&
@@ -26,3 +26,5 @@ const { title, summary, tags, source } = Astro.props.frontmatter;
     </div>
   </article>
 </Layout>
+<style>
+</style>

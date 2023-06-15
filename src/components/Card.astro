@@ -15,19 +15,18 @@ const { href, title, body, tags } = Astro.props;
         {title}
       </a>
     </h2>
-    <p>
-      {body}
-    </p>
 </li>
 <style>
   .link-card {
     --flow-space: 1.5rem;
     --border-color: hsl(var(--accent-200));
+    display: grid;
+    place-content: center;
+    text-align: center;
     list-style: none;
     border-radius: 0.35rem;
-    padding: 1.25rem;
+    padding: 1.5rem;
     border: 1px solid var(--border-color);
-    box-shadow: 6px 6px 0 hsl(var(--accent-700));
     background-color:hsl(var(--accent-100));
     position: relative;
   }
