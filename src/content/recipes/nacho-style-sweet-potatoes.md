@@ -1,6 +1,6 @@
 ---
 title: "Nacho-Style Sweet Potatoes"
-tags: ["cheese", "queso", "main"]
+tags: ["cheese", "main"]
 summary: "Sweet potatoes baked until tender and loaded with all the toppings that make a plate of nachos great. Laura & Tiff's original recipe."
 ---
 

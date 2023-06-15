@@ -2,7 +2,6 @@
 title: Biscuits & Gravy
 tags:
   - breakfast
-  - savory
 summary:
   Hearty breakfast gravy to serve up with your favorite biscuits, whether homemade
   or Bisquik. Tiff's original recipe.

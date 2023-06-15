@@ -1,10 +1,7 @@
 ---
 title: Queso from Hot for Food
 tags:
-  - queso
   - cheese
-  - appetizers
-  - party
 featureImg: "/img/nachos-sm.jpg"
 youtubeId: HUH3ttCnnGU
 source: https://www.hotforfoodblog.com/recipes/2015/01/22/nacho-cheese/

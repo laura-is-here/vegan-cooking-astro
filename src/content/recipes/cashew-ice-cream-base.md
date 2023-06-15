@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["dessert"]
 title: Cashew Ice Cream Base
 featureImg: ""
 youtubeId: ""

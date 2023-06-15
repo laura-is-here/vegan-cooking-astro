@@ -2,7 +2,6 @@
 title: Lentil Soup
 summary: Easy lentil soup for big batches and leftovers on weeknights.
 tags:
-  - lentils
   - easy
   - big batch
 ---

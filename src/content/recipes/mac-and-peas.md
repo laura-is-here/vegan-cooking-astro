@@ -1,29 +1,28 @@
 ---
 tags:
-- pasta
-- easy
+  - easy
 title: Mac and Peas
-featureImg: ''
+featureImg: ""
 youtubeId: 510fDkRzNz4
 source: https://www.hotforfoodblog.com/recipes/2010/07/11/mac-and-peas/
 summary: Quick and easy creamy pasta with peas.
-featureImgAttr: ''
+featureImgAttr: ""
 ingredients: []
-
 ---
+
 ## Ingredients
 
-* 1 x 454g pkg Brown Rice Spirals (or about 5 cups of noodles of your choice)
-* 1/4 tsp sea salt
-* 1 C frozen peas
-* 2 tbsp tahini
-* 2 tbsp nutritional yeast
-* 1 tbsp lemon juice
-* 1 tbsp olive oil
-* 1 tbsp mellow white miso
-* 1 tbsp soy sauce
-* 1 garlic clove, minced
-* 1 C pasta water (reserved from boiling pasta)
+- 1 x 454g pkg Brown Rice Spirals (or about 5 cups of noodles of your choice)
+- 1/4 tsp sea salt
+- 1 C frozen peas
+- 2 tbsp tahini
+- 2 tbsp nutritional yeast
+- 1 tbsp lemon juice
+- 1 tbsp olive oil
+- 1 tbsp mellow white miso
+- 1 tbsp soy sauce
+- 1 garlic clove, minced
+- 1 C pasta water (reserved from boiling pasta)
 
 ## Instructions
 

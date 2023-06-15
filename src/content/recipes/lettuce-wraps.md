@@ -1,6 +1,5 @@
 ---
 tags:
-  - share
   - side
 title: Lettuce Wraps
 featureImg: ""

@@ -1,6 +1,5 @@
 ---
 tags:
-  - pasta
   - easy
 title: Pasta with Chickpeas
 youtubeId: ""

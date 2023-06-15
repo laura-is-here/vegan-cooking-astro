@@ -3,7 +3,6 @@ title: Mapo Tofu, Sichuan Style
 tags:
   - chinese
   - main
-  - tofu
   - spicy
 featureImg: "/img/mapo-tofu-sm.jpg"
 youtubeId: AujuLHK3hvs

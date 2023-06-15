@@ -1,13 +1,9 @@
 ---
 title: Mac & Cheese
 tags:
-- cheese
-- pasta
-- comfort
-- party
+  - main
 featureImg: "/img/mac-and-cheese-sm.jpg"
 summary: Hearty Mac and Cheese that's great for sharing. Tiff's original recipe.
-
 ---
 
 ## Ingredients

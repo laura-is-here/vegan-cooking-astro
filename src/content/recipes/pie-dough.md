@@ -1,7 +1,6 @@
 ---
 tags:
-  - Dessert
-  - Pie
+  - dessert
 title: Pie Dough
 featureImg: ""
 youtubeId: ""
