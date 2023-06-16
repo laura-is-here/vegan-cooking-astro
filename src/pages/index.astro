@@ -39,14 +39,19 @@ const ingredients = [
     </div>
   </header>
 
-  <section class="sidebar container">
-    <div class="flow">
+  <section class="with-sidebar container">
+    <div class="flow sidebar">
       <h2>Browse by category</h2>
       <Tags tags={tags} />
       <h2>Browse by main ingredient</h2>
       <Ingredients ingredients={ingredients} />
     </div>
-    <ul id="recipes" role="list" class="flow" style="--flow-space: 1.2em">
+    <ul
+      id="recipes"
+      role="list"
+      class="flow not-sidebar"
+      style="--flow-space: 1.2em;"
+    >
       {
         recipes.map((recipe) => (
           <li>

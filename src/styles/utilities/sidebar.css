@@ -1,6 +1,17 @@
-.sidebar {
+.with-sidebar {
   --container-max: min(calc(100% - 2rem), 50em);
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
-  grid-template-columns: fit-content(20ch) minmax(min(50vw, 30ch), 1fr);
+}
+
+.sidebar {
+  flex-basis: 20rem;
+  flex-grow: 1;
+}
+
+.not-sidebar {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 50%;
 }
