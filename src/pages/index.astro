@@ -39,15 +39,15 @@ const ingredients = [
     </div>
   </header>
 
-  <section class="with-sidebar">
-    <div class="flow sidebar container">
+  <section class="with-sidebar container">
+    <div class="flow sidebar">
       <h2>Browse by category</h2>
       <Tags tags={tags} />
       <h2>Browse by main ingredient</h2>
       <Ingredients ingredients={ingredients} />
     </div>
     <div class="not-sidebar flow">
-      <h2 class="container" id="recipes">Recipes</h2>
+      <h2 id="recipes">Recipes</h2>
       <ul role="list" class="flow">
         {
           recipes.map((recipe) => (
