@@ -24,10 +24,10 @@ ingredient:
 
 ### To stir fry
 - 1/4 cup neutral oil
+- 3 Tbsp [Laoganma pickled chilis](https://m.yamibuy.com/en/p/laoganma-pickled-chili-750g/1021045731), minced
 - 2 garlic cloves, minced
 - 1/2 inch ginger, minced
 - 2 green onions, chopped
-- 3 Tbsp [Laoganma pickled chilis](https://m.yamibuy.com/en/p/laoganma-pickled-chili-750g/1021045731), minced
 - 1 tsp soy sauce
 - 1 Tbsp Shaoxing wine
 - 1/4 tsp white pepper
