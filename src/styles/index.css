@@ -8,4 +8,5 @@
 @import "utilities/flow.css";
 @import "utilities/container.css";
 @import "utilities/link-card-grid.css";
-@import "utilities/font-sizes.css";
+@import "utilities/typography.css";
+@import "utilities/sidebar.css";

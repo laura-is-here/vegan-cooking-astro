@@ -36,21 +36,26 @@ const ingredients = [
         A personal reference and chronicle for our favorite vegan original and
         adapted vegan recipes.
       </p>
-      <Tags tags={tags} />
-      <Ingredients ingredients={ingredients} />
     </div>
   </header>
 
-  <ul id="recipes" role="list" class="container link-card-grid">
-    {
-      recipes.map((recipe) => (
-        <Card
-          href={`/recipes/${recipe.slug}`}
-          title={recipe.data.title}
-          body={recipe.data.summary}
-          tags={recipe.data.tags}
-        />
-      ))
-    }
-  </ul>
+  <section class="sidebar container">
+    <div class="flow">
+      <h2>Browse by category</h2>
+      <Tags tags={tags} />
+      <h2>Browse by main ingredient</h2>
+      <Ingredients ingredients={ingredients} />
+    </div>
+    <ul id="recipes" role="list" class="flow" style="--flow-space: 1.2em">
+      {
+        recipes.map((recipe) => (
+          <li>
+            <h3>
+              <a href={`/recipes/${recipe.slug}`}>{recipe.data.title}</a>
+            </h3>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 </Layout>
