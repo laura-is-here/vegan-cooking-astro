@@ -3,6 +3,7 @@
 @import "_base.css";
 
 @import "blocks/notice.css";
+@import "blocks/card.css";
 
 @import "utilities/colors.css";
 @import "utilities/flow.css";

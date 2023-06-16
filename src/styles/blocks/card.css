@@ -1,0 +1,13 @@
+.card {
+  --flow-space: 1.2em;
+  padding: 0;
+}
+
+.card :is(h2, h3, h4) {
+  font-size: var(--step-1);
+  font-family: var(--base-font);
+}
+
+.card :is(h2, h3, h4) > a {
+  color: inherit;
+}

@@ -51,6 +51,10 @@ body {
   font-size: var(--step-1);
 }
 
+ul[role="list"] {
+  padding: 0;
+}
+
 ul li::marker {
   color: hsl(var(--primary));
 }

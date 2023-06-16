@@ -46,15 +46,10 @@ const ingredients = [
       <h2>Browse by main ingredient</h2>
       <Ingredients ingredients={ingredients} />
     </div>
-    <ul
-      id="recipes"
-      role="list"
-      class="flow not-sidebar"
-      style="--flow-space: 1.2em; padding: 0;"
-    >
+    <ul id="recipes" role="list" class="flow not-sidebar">
       {
         recipes.map((recipe) => (
-          <li>
+          <li class="card">
             <h3>
               <a href={`/recipes/${recipe.slug}`}>{recipe.data.title}</a>
             </h3>
