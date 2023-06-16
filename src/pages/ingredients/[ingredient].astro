@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 
 import Layout from "../../layouts/Layout.astro";
-import Card from "../../components/Card.astro";
+import CardList from "../../components/CardList.astro";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
@@ -36,16 +36,5 @@ const { recipes } = Astro.props;
       <h1>Recipes filed under {ingredient}</h1>
     </div>
   </header>
-  <ul id="recipes" role="list" class="link-card-grid container">
-    {
-      recipes.map((recipe) => (
-        <Card
-          href={`/recipes/${recipe.slug}`}
-          title={recipe.data.title}
-          body={recipe.data.summary}
-          tags={recipe.data.tags}
-        />
-      ))
-    }
-  </ul>
+  <CardList data={recipes} />
 </Layout>
