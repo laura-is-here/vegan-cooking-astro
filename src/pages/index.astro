@@ -46,16 +46,24 @@ const ingredients = [
       <h2>Browse by main ingredient</h2>
       <Ingredients ingredients={ingredients} />
     </div>
-    <ul id="recipes" role="list" class="flow not-sidebar">
-      {
-        recipes.map((recipe) => (
-          <li class="card">
-            <h3>
-              <a href={`/recipes/${recipe.slug}`}>{recipe.data.title}</a>
-            </h3>
-          </li>
-        ))
-      }
-    </ul>
+    <div class="not-sidebar flow">
+      <h2 id="recipes">Recipes</h2>
+      <ul role="list" class="flow">
+        {
+          recipes.map((recipe) => (
+            <li class="card flow">
+              <h3>
+                <a href={`/recipes/${recipe.slug}`}>{recipe.data.title}</a>
+              </h3>
+              <p>
+                <a class="uppercase" href={`/tags/${recipe.data.tags[0]}`}>
+                  {recipe.data.tags[0]}
+                </a>
+              </p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
   </section>
 </Layout>

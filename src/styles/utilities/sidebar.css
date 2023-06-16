@@ -1,5 +1,5 @@
 .with-sidebar {
-  --container-max: min(calc(100% - 2rem), 50em);
+  --container-max: min(calc(100% - 2rem), 60em);
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
