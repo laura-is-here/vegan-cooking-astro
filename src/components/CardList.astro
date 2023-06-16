@@ -2,13 +2,14 @@
 const { listData } = Astro.props;
 ---
 
-<ul role="list" class="flow">
+<ul role="list" class="link-card-grid">
   {
     listData.map((recipe) => (
       <li class="card flow">
         <h3>
           <a href={`/recipes/${recipe.slug}`}>{recipe.data.title}</a>
         </h3>
+        <p>{recipe.data.summary}</p>
         <p>
           <a class="uppercase" href={`/tags/${recipe.data.tags[0]}`}>
             {recipe.data.tags[0]}

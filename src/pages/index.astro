@@ -5,6 +5,7 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Tags from "../components/Tags.astro";
 import Ingredients from "../components/Ingredients.astro";
+import CardList from "../components/CardList.astro";
 
 const recipes = await getCollection("recipes");
 
@@ -48,22 +49,7 @@ const ingredients = [
     </div>
     <div class="not-sidebar flow">
       <h2 id="recipes">Recipes</h2>
-      <ul role="list" class="flow">
-        {
-          recipes.map((recipe) => (
-            <li class="card flow">
-              <h3>
-                <a href={`/recipes/${recipe.slug}`}>{recipe.data.title}</a>
-              </h3>
-              <p>
-                <a class="uppercase" href={`/tags/${recipe.data.tags[0]}`}>
-                  {recipe.data.tags[0]}
-                </a>
-              </p>
-            </li>
-          ))
-        }
-      </ul>
+      <CardList listData={recipes} />
     </div>
   </section>
 </Layout>
