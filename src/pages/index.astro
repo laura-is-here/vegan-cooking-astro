@@ -8,18 +8,23 @@ import Ingredients from "../components/Ingredients.astro";
 
 const recipes = await getCollection("recipes");
 
-const tags = [...new Set(recipes.filter((recipe) => recipe.data.tags ? recipe : false).map((recipe) => recipe.data.tags).flat())];
+const tags = [
+  ...new Set(
+    recipes
+      .filter((recipe) => (recipe.data.tags ? recipe : false))
+      .map((recipe) => recipe.data.tags)
+      .flat()
+  ),
+];
 
-const ingredients = [...new Set(recipes.filter((recipe) => recipe.data.ingredient ? recipe : false).map((recipe) => recipe.data.ingredient).flat())];;
-// const allIngredients = recipes.flatMap((recipe) => recipe.data.ingredient && recipe.data.ingredient.length);
-
-// console.log(allIngredients)
-
-// allIngredients.forEach((ingredient) => {
-//   if (ingredients.includes(ingredient)) return;
-//   ingredients.push(ingredient.toLowerCase());
-// });
-
+const ingredients = [
+  ...new Set(
+    recipes
+      .filter((recipe) => (recipe.data.ingredient ? recipe : false))
+      .map((recipe) => recipe.data.ingredient)
+      .flat()
+  ),
+];
 ---
 
 <Layout title="Vegan Home Cooking by Tiff & Laura">
@@ -32,7 +37,7 @@ const ingredients = [...new Set(recipes.filter((recipe) => recipe.data.ingredien
         adapted vegan recipes.
       </p>
       <Tags tags={tags} />
-      <Ingredients ingredients={ingredients}/>
+      <Ingredients ingredients={ingredients} />
     </div>
   </header>
 
@@ -49,4 +54,3 @@ const ingredients = [...new Set(recipes.filter((recipe) => recipe.data.ingredien
     }
   </ul>
 </Layout>
-

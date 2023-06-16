@@ -6,12 +6,19 @@ import Card from "../../components/Card.astro";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
-  const uniqueIngredients = [...new Set(recipes.filter((recipe) => recipe.data.ingredient ? recipe : false).map((recipe) => recipe.data.ingredient).flat())];
+  const uniqueIngredients = [
+    ...new Set(
+      recipes
+        .filter((recipe) => (recipe.data.ingredient ? recipe : false))
+        .map((recipe) => recipe.data.ingredient)
+        .flat()
+    ),
+  ];
 
   return uniqueIngredients.map((ingredient) => {
-    const filteredRecipes = recipes.filter((recipe) => recipe.data.ingredient ? recipe : false).filter((recipe) =>
-      recipe.data.ingredient.includes(ingredient)
-    );
+    const filteredRecipes = recipes
+      .filter((recipe) => (recipe.data.ingredient ? recipe : false))
+      .filter((recipe) => recipe.data.ingredient.includes(ingredient));
     return {
       params: { ingredient },
       props: { recipes: filteredRecipes },
@@ -24,21 +31,21 @@ const { recipes } = Astro.props;
 ---
 
 <Layout title={ingredient}>
-    <header class="">
-        <div class="container flow">
-          <h1>Recipes filed under {ingredient}</h1>
-        </div>
-    </header>    
-    <ul id="recipes" role="list" class="link-card-grid container">
-        {
-          recipes.map((recipe) => (
-            <Card
-              href={`/recipes/${recipe.slug}`}
-              title={recipe.data.title}
-              body={recipe.data.summary}
-              tags={recipe.data.tags}
-            />
-          ))
-        }
-      </ul>
+  <header class="">
+    <div class="container flow">
+      <h1>Recipes filed under {ingredient}</h1>
+    </div>
+  </header>
+  <ul id="recipes" role="list" class="link-card-grid container">
+    {
+      recipes.map((recipe) => (
+        <Card
+          href={`/recipes/${recipe.slug}`}
+          title={recipe.data.title}
+          body={recipe.data.summary}
+          tags={recipe.data.tags}
+        />
+      ))
+    }
+  </ul>
 </Layout>

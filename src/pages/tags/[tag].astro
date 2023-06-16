@@ -6,7 +6,9 @@ import Card from "../../components/Card.astro";
 
 export async function getStaticPaths() {
   const recipes = await getCollection("recipes");
-  const uniqueTags = [...new Set(recipes.map((recipe) => recipe.data.tags).flat())];
+  const uniqueTags = [
+    ...new Set(recipes.map((recipe) => recipe.data.tags).flat()),
+  ];
 
   return uniqueTags.map((tag) => {
     const filteredRecipes = recipes.filter((recipe) =>
@@ -24,21 +26,21 @@ const { recipes } = Astro.props;
 ---
 
 <Layout title={tag}>
-    <header class="">
-        <div class="container flow">
-          <h1>Recipes filed under {tag}</h1>
-        </div>
-    </header>    
-    <ul id="recipes" role="list" class="link-card-grid container">
-        {
-          recipes.map((recipe) => (
-            <Card
-              href={`/recipes/${recipe.slug}`}
-              title={recipe.data.title}
-              body={recipe.data.summary}
-              tags={recipe.data.tags}
-            />
-          ))
-        }
-      </ul>
+  <header class="">
+    <div class="container flow">
+      <h1>Recipes filed under {tag}</h1>
+    </div>
+  </header>
+  <ul id="recipes" role="list" class="link-card-grid container">
+    {
+      recipes.map((recipe) => (
+        <Card
+          href={`/recipes/${recipe.slug}`}
+          title={recipe.data.title}
+          body={recipe.data.summary}
+          tags={recipe.data.tags}
+        />
+      ))
+    }
+  </ul>
 </Layout>

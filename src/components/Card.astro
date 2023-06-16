@@ -11,10 +11,10 @@ const { href, title, body, tags } = Astro.props;
 
 <li class="link-card">
   <h2>
-      <a href={href}>
-        {title}
-      </a>
-    </h2>
+    <a href={href}>
+      {title}
+    </a>
+  </h2>
 </li>
 <style>
   .link-card {
@@ -27,7 +27,7 @@ const { href, title, body, tags } = Astro.props;
     border-radius: 0.35rem;
     padding: 1.5rem;
     border: 1px solid var(--border-color);
-    background-color:hsl(var(--accent-100));
+    background-color: hsl(var(--accent-100));
     position: relative;
   }
 

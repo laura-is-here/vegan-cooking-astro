@@ -10,15 +10,9 @@ const { title, summary, tags, source } = Astro.props.frontmatter;
     <header class="">
       <div class="container flow">
         <h1>{title}</h1>
-        {summary &&
-        <p class="text-step-1">
-          {summary}
-        </p>
-      }
+        {summary && <p class="text-step-1">{summary}</p>}
         {source && <a href={source}>Original Recipe</a>}
-        {tags &&
-        <Tags tags={tags} />
-        }
+        {tags && <Tags tags={tags} />}
       </div>
     </header>
     <div class="container flow markdown">
@@ -26,5 +20,4 @@ const { title, summary, tags, source } = Astro.props.frontmatter;
     </div>
   </article>
 </Layout>
-<style>
-</style>
+<style></style>
