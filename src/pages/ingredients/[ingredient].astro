@@ -31,10 +31,10 @@ const { recipes } = Astro.props;
 ---
 
 <Layout title={ingredient}>
-  <header class="">
-    <div class="container flow">
+  <div class="container">
+    <header class="">
       <h1>Recipes filed under {ingredient}</h1>
-    </div>
-  </header>
-  <CardList listData={recipes} />
+    </header>
+    <CardList listData={recipes} />
+  </div>
 </Layout>
