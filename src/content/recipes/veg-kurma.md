@@ -4,6 +4,7 @@ tags:
   - curry
 ingredient:
   - veggies
+  - potatoes
 title: Veg Kurma
 featureImg: ""
 youtubeId: ""

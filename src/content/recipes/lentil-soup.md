@@ -6,6 +6,7 @@ tags:
   - big batch
 ingredient:
   - lentils
+  - potatoes
 ---
 
 Adjust this lentil soup recipe as you'd like for an easy weeknight meal that will feed plenty or leave you with plenty of leftovers.
