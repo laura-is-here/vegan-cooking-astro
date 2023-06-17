@@ -5,6 +5,7 @@
 @import "blocks/notice.css";
 @import "blocks/card.css";
 
+@import "utilities/bg-pattern.css";
 @import "utilities/colors.css";
 @import "utilities/flow.css";
 @import "utilities/container.css";
