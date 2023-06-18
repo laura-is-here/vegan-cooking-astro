@@ -1,6 +1,6 @@
 .card {
   padding: 1.5rem 1rem;
-  background-color: hsl(var(--accent-200));
+  background-color: hsl(var(--accent-100));
   border-radius: var(--border-radius);
   border: 1px solid hsl(var(--accent-200));
   font-size: var(--step--1);
