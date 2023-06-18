@@ -1,6 +1,32 @@
 body {
   font-family: var(--base-font);
   background-color: #f6f6f6;
+  background: linear-gradient(
+      35deg,
+      hsl(0deg 0% 96%) 0%,
+      hsl(180deg 3% 94%) 21%,
+      hsl(140deg 8% 92%) 30%,
+      hsl(144deg 10% 90%) 39%,
+      hsl(142deg 13% 88%) 46%,
+      hsl(142deg 15% 86%) 54%,
+      hsl(140deg 19% 84%) 61%,
+      hsl(140deg 23% 82%) 69%,
+      hsl(141deg 25% 80%) 79%,
+      hsl(141deg 29% 78%) 100%
+    ),
+    linear-gradient(
+      140deg,
+      hsl(0deg 0% 96%) 0%,
+      hsl(30deg 7% 95%) 21%,
+      hsl(36deg 14% 93%) 30%,
+      hsl(30deg 22% 91%) 39%,
+      hsl(28deg 31% 89%) 46%,
+      hsl(31deg 38% 87%) 54%,
+      hsl(30deg 46% 85%) 61%,
+      hsl(29deg 54% 84%) 69%,
+      hsl(31deg 61% 82%) 79%,
+      hsl(30deg 69% 80%) 100%
+    );
   color: #444;
   font-size: var(--step-0);
   line-height: 1.5;
