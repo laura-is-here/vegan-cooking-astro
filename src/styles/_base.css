@@ -28,6 +28,7 @@ body {
       hsl(30deg 69% 80% / 50%) 100%
     );
   background-size: 400%;
+  background-position: center;
   color: #444;
   font-size: var(--step-0);
   line-height: 1.5;
