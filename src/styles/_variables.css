@@ -10,7 +10,7 @@
   --step-5: clamp(2.8rem, calc(1.94rem + 4.28vw), 5.26rem);
 
   --accent-font: "Playfair Display", serif;
-  --base-font: "Lato", system-ui, sans-serif;
+  --base-font: "Inter", system-ui, sans-serif;
 
   /* color: #b7d7c2; */
   /* color: #fcfdfd; */
