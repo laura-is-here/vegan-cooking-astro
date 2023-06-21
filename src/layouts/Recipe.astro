@@ -5,7 +5,7 @@ import Tags from "../components/Tags.astro";
 const { title, summary, tags, source } = Astro.props.frontmatter;
 ---
 
-<Layout title={title}>
+<Layout title={title} summary={summary}>
   <article>
     <header class="">
       <div class="container flow">

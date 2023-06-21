@@ -63,3 +63,4 @@ source: https://www.cookwithmanali.com/chana-dal-recipe/
 1. Place a small, heatproof metal bowl in the pot on top of the cooked dal. Make sure to have the lid ready to cover the pot.
 2. Using tongs, heat a piece of charcoal over the flame of a gas burner until very hot.
 3. Place the piece of charcoal in the metal bowl and pour over a teaspoon or so of oil, then immediately cover. Allow to sit for 2 - 3 minutes.
+4. After 2 - 3 minutes, safely remove the bowl and charcoal. Stir in cilantro and serve.
