@@ -30,7 +30,7 @@ featureImgAttr: ""
 - 1/4 tsp red chili flakes
 - Lettuce
 
-## Process
+## Directions
 
 ### Prep TVP (30 minutes before)
 

@@ -26,7 +26,7 @@ source: https://www.indianhealthyrecipes.com/pulao-recipe-veg-pulao-recipe/
 - 1 1/2 tsp salt
 - 1 3/4 cups water (2 cups was too much, rice was overcooked)
 
-## Process
+## Directions
 
 Rinse the rice until water runs clear. Cover with warm water and let soak for 10 minutes.
 

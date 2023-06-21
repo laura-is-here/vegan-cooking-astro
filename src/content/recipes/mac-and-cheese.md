@@ -26,7 +26,7 @@ summary: Hearty Mac and Cheese that's great for sharing. Tiff's original recipe.
 - 1/2 Cup Vegan Cheddar Shreds
 - Salt and Pepper to taste
 
-## Process
+## Directions
 
 ### Make the Cashew Cheese
 

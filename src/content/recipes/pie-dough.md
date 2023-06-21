@@ -17,7 +17,7 @@ featureImgAttr: ""
 - 1 teaspoon (5 grams) table salt
 - 2 sticks (8 ounces, 225 grams tablespoons or 1 cup) unsalted butter, very cold
 
-## Process
+## Directions
 
 ### Gather your ingredients
 

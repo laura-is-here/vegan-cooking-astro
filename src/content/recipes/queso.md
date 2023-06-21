@@ -27,7 +27,7 @@ summary: Easy queso based on potatoes and carrots. Originally from Hot for Food.
 - 1 tbsp nutritional yeast
 - 1/2 tsp sea salt
 
-## Process
+## Directions
 
 1. Boil the potatoes and carrots in pot of water for approximately 10 minutes. Drain them from the boiling water and add to a high-powered blender immediately.
    - _Note: If you cook the potatoes for too long, they will become starchy and your sauce will not be smooth._

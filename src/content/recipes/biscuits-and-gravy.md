@@ -19,7 +19,7 @@ summary:
 - 1/4 Cup Flour
 - 1 1/2 Cups unsweetened Soy Milk
 
-## Process
+## Directions
 
 ### Prepare the Base
 

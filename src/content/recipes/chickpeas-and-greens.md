@@ -21,7 +21,7 @@ ingredient:
 - Splash of white wine vinegar
 - Parmesan
 
-## Process
+## Directions
 
 ### Prep
 

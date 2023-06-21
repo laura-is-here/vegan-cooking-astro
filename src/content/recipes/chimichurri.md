@@ -22,6 +22,6 @@ featureImgAttr: ""
 - 2  Tbsp. finely chopped oregano
 - ¾  cup extra-virgin olive oil
 
-## Process
+## Directions
 
 Pulse all ingredients in a blender until incorporated.

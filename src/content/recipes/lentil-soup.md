@@ -36,7 +36,7 @@ I like to use whole coriander and cumin seeds and grind them up, but pre-ground 
 - 2 medium gold potatoes, diced
 - 10 ounces spinach, chopped
 
-## Process
+## Directions
 
 Heat oil in a pot over medium heat. Add onions and pinch of salt.
 

@@ -34,7 +34,7 @@ summary: Quick, spicy, vegan chili that packs a ton of flavor. Laura's original 
 - Avocado
 - Cilantro
 
-## Process
+## Directions
 
 ### Prepare the Dried Chiles
 

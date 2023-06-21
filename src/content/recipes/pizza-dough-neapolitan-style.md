@@ -18,7 +18,7 @@ featureImgAttr: https://www.seriouseats.com/recipes/2010/09/hacker-free-neapolit
 - ".2 ounces (about 2 teaspoons) sugar"
 - 12 ounces water
 
-## Process
+## Directions
 
 ### Make the dough (day before)
 

@@ -19,7 +19,7 @@ ingredient:
 - 2 tsp soy sauce
 - 1/4 tsp salt
 
-## Process
+## Directions
 
 1. Microwave the kabocha for 2 minutes to soften the outer skin before cutting into two each pieces.
 2. Combine dashi, sugar, sake, soy sauce, and salt.

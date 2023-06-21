@@ -17,6 +17,6 @@ source: https://www.youtube.com/watch?v=sO0SXMO4mC8
 - 1 tsp mushroom broth powder
 - 1/4 tsp MSG
 
-## Process
+## Directions
 
 Stick everything in a spice grinder and pulse until well ground. Use to season anything you like. Great as a finishing seasoning.

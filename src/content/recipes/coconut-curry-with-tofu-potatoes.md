@@ -37,7 +37,7 @@ ingredients: []
 - 2 cups baby kale
 - 1 can coconut milk
 
-## Process
+## Directions
 
 ### Prepare the potatoes
 

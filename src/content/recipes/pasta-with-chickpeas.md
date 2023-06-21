@@ -24,6 +24,6 @@ ingredients: []
 - 4 cups water
 - 1 teaspoon minced fresh rosemary
 
-## Process
+## Directions
 
 In a medium-large heavy-bottomed pot or deep saute pan, heat 3 tablespoons olive oil until it shimmers. Add 5 smashed cloves of garlic and cook, stirring until it becomes lightly, barely browned but very fragrant. Stir in the tomato paste, salt, and pepper and cook them with the garlic for 30 seconds or so. Add the chickpeas, pasta, rosemary, and water. Stir to scrape up any browned bits on the bottom of the pot, lower the heat, and simmer until the pasta is cooked and a lot of the liquid has been absorbed, about 15 to 20 minutes. Taste and adjust seasoning and ladle into bowls.

@@ -21,7 +21,7 @@ summary: A marinade packed with asada flavor. Tiff's original recipe.
 - 1/2 Cup Water
 - 1 Tbsp Olive Oil
 
-## Process
+## Directions
 
 **To Make:** Whisk all ingredients together until fully incorporated.
 

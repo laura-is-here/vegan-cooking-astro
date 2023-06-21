@@ -19,7 +19,7 @@ ingredient:
 - 4 to 5 cloves garlic, unpeeled but crushed
 - 1/4 teaspoon whole black peppercorns
 
-## Process
+## Directions
 
 ### One day or several hours before:
 
