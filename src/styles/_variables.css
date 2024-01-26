@@ -9,8 +9,8 @@
   --step-4: clamp(2.33rem, calc(1.77rem + 2.81vw), 3.95rem);
   --step-5: clamp(2.8rem, calc(1.94rem + 4.28vw), 5.26rem);
 
-  --accent-font: "Playfair Display", serif;
   --base-font: "Inter", system-ui, sans-serif;
+  --accent-font: var(--base-font);
 
   /* color: #b7d7c2; */
   /* color: #fcfdfd; */
