@@ -2,6 +2,8 @@
 title: Pasta with Tomato Cream Sauce
 tags: 
   - dinner
+ingredient:
+  - pasta
 summary: A basic vegan tomato cream sauce.
 ---
 
