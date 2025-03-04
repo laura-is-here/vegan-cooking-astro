@@ -9,20 +9,20 @@ summary: A basic vegan tomato cream sauce.
 
 ## Ingredients
 
-3/4 cup raw unsalted cashews
-1 yellow onion, minced/chopped fine
-3-4 cloves of garlic, minced
-2 Tbsp olive oil
-Pinch of red pepper flakes 
-1/2 tsp Italian seasoning
-1 Tbsp tomato paste
-1 28oz can whole San Marzano tomatoes, blended or crushed
-Salt + pepper to taste
-1lb pasta
+-3/4 cup raw unsalted cashews
+-1 yellow onion, minced/chopped fine
+-3-4 cloves of garlic, minced
+-2 Tbsp olive oil
+-Pinch of red pepper flakes 
+-1/2 tsp Italian seasoning
+-1 Tbsp tomato paste
+-1 28oz can whole San Marzano tomatoes, blended or crushed
+-Salt + pepper to taste
+-1lb pasta, cooked according to package direction
 
 ## Directions
 
-**Cashew cream: **
+**Cashew cream:**
 
 Soak the cashews in boiling water for at least 30 minutes. Drain and add to a blender with 3/4 cup water and a pinch of salt. Blend until very smooth. 
 
